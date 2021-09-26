@@ -1,0 +1,459 @@
+{
+    "entities": [
+        {
+            "id": "0f60110f-2273-4bf2-9466-f730e6ad19c6",
+            "name": {
+                "singular": "customer",
+                "plural": null
+            },
+            "label": {
+                "singular": "Customer",
+                "plural": "Customers"
+            },
+            "properties": {
+                "display": "3b5ef25e-7d0e-4fa6-9c1d-ff840d816dde"
+            },
+            "fields": [
+                {
+                    "id": "3b5ef25e-7d0e-4fa6-9c1d-ff840d816dde",
+                    "name": {
+                        "singular": "name",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Name",
+                        "plural": null
+                    },
+                    "properties": {
+                        "text_html_type": "text",
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "6850cd8d-d90d-4e55-b2b8-ed03e8d05335",
+                            "key": "required",
+                            "value": true
+                        },
+                        {
+                            "id": "37fb31f8-1939-443c-a4b9-88d6448deaa5",
+                            "key": "minlength",
+                            "value": 2
+                        },
+                        {
+                            "id": "c935062b-855e-4b38-87d3-b97a07e3c865",
+                            "key": "maxlength",
+                            "value": 255
+                        }
+                    ],
+                    "type": "text",
+                    "order": 1
+                },
+                {
+                    "id": "e6cfaa26-ef6a-48ab-a5fb-e9bb6e559a04",
+                    "name": {
+                        "singular": "phone",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Phone",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes",
+                        "placeholder": "201-123-4567"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "bb012b62-2ee4-4766-9f05-12d8d14394e0",
+                            "key": "required",
+                            "value": true
+                        },
+                        {
+                            "id": "0934a016-7930-4abd-a04c-dd8fbb213207",
+                            "key": "unique",
+                            "value": true
+                        }
+                    ],
+                    "type": "integer",
+                    "order": 2
+                },
+                {
+                    "id": "d76a6e27-f04e-4736-b87e-1ffec04529ad",
+                    "name": {
+                        "singular": "billingAddress",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "BillingAddress",
+                        "plural": null
+                    },
+                    "properties": {
+                        "text_html_type": "text",
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes",
+                        "placeholder": "123 Main St. New York, NY 10001"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "b5ffda91-5c54-43e9-973e-945a0088b624",
+                            "key": "required",
+                            "value": true
+                        }
+                    ],
+                    "type": "text",
+                    "order": 3
+                },
+                {
+                    "id": "fddcc808-fcc5-478b-94c4-beeb549dc6b2",
+                    "name": {
+                        "singular": "shippingAddress",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "ShippingAddress",
+                        "plural": null
+                    },
+                    "properties": {
+                        "text_html_type": "text",
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes",
+                        "placeholder": "123 Main St, apt 5A, Jersey City, NJ 07307"
+                    },
+                    "relation": {},
+                    "validations": [],
+                    "type": "text",
+                    "order": 4
+                },
+                {
+                    "id": "e5e59de4-e64d-4e5e-9bb9-af62964b5cd0",
+                    "name": {
+                        "singular": "profilePhoto",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "ProfilePhoto",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [],
+                    "type": "images",
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "id": "edb23db6-0308-4c18-98b9-6efa6ba899d7",
+            "name": {
+                "singular": "product",
+                "plural": null
+            },
+            "label": {
+                "singular": "Product",
+                "plural": "Products"
+            },
+            "properties": {
+                "display": "8122c680-9546-4882-8c40-4dcb555718b3"
+            },
+            "fields": [
+                {
+                    "id": "8122c680-9546-4882-8c40-4dcb555718b3",
+                    "name": {
+                        "singular": "name",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Name",
+                        "plural": null
+                    },
+                    "properties": {
+                        "text_html_type": "text",
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "5a8304ef-ade3-4182-b8c3-e639cb7426a2",
+                            "key": "required",
+                            "value": true
+                        },
+                        {
+                            "id": "add6b8b3-8c87-411c-8ed6-0816f86efc68",
+                            "key": "minlength",
+                            "value": 2
+                        },
+                        {
+                            "id": "046982a2-f1b0-43af-8e05-faa6240cf3a5",
+                            "key": "maxlength",
+                            "value": 255
+                        }
+                    ],
+                    "type": "text"
+                },
+                {
+                    "id": "4a7604c9-d543-4b1c-a949-955d546c8a67",
+                    "name": {
+                        "singular": "description",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Description",
+                        "plural": null
+                    },
+                    "properties": {
+                        "text_html_type": "textarea",
+                        "list": "no",
+                        "filter": "no",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "ec073081-cb4a-4fb6-809d-78dfec637e6e",
+                            "key": "maxlength",
+                            "value": 21845
+                        }
+                    ],
+                    "type": "text"
+                },
+                {
+                    "id": "c60eee35-0bcb-479e-89f6-64abdd04d81d",
+                    "name": {
+                        "singular": "unitPrice",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Unit Price",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "9617e919-7eb9-45e0-b4b0-cef1b3a62d5f",
+                            "key": "required",
+                            "value": true
+                        },
+                        {
+                            "id": "1c98ad9e-cb36-49fe-a1bb-73cf909862a7",
+                            "key": "scale",
+                            "value": 2
+                        },
+                        {
+                            "id": "7afa118f-804d-452a-a112-81c7ddedb1b2",
+                            "key": "min",
+                            "value": 0.01
+                        },
+                        {
+                            "id": "aebb2cf3-2442-451c-8fab-c6248ed125af",
+                            "key": "max",
+                            "value": 99999
+                        }
+                    ],
+                    "type": "decimal"
+                },
+                {
+                    "id": "d98edfc4-4da5-483f-bc90-e6a96a695b9a",
+                    "name": {
+                        "singular": "photos",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Photos",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "4b195c26-d61e-4bec-9b12-858b66044254",
+                            "key": "max",
+                            "value": 3
+                        },
+                        {
+                            "id": "8603a06d-a444-4450-ad9d-50592bed16e9",
+                            "key": "size",
+                            "value": 1000000
+                        }
+                    ],
+                    "type": "images"
+                }
+            ]
+        },
+        {
+            "id": "aedcf759-7a71-4f15-87c0-f2004f3b8b5f",
+            "name": {
+                "singular": "order",
+                "plural": null
+            },
+            "label": {
+                "singular": "Order",
+                "plural": "Orders"
+            },
+            "properties": {
+                "display": "id"
+            },
+            "fields": [
+                {
+                    "id": "38befaf9-7242-44d5-b42d-4a392577ba53",
+                    "name": {
+                        "singular": "customer",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Customer",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {
+                        "entity": "0f60110f-2273-4bf2-9466-f730e6ad19c6"
+                    },
+                    "validations": [
+                        {
+                            "id": "32ad1c7b-9011-4593-83b2-a13da07c1c42",
+                            "key": "required",
+                            "value": true
+                        }
+                    ],
+                    "type": "relation_one"
+                },
+                {
+                    "id": "53a0f238-f640-4468-aa9e-bfd4c0678fe7",
+                    "name": {
+                        "singular": "products",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Products",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {
+                        "entity": "edb23db6-0308-4c18-98b9-6efa6ba899d7"
+                    },
+                    "validations": [
+                        {
+                            "id": "70f25c0b-eb54-4f14-af15-017891fee0f4",
+                            "key": "required",
+                            "value": true
+                        },
+                        {
+                            "id": "f00bf570-7f1b-408e-8c40-81783dc60cfd",
+                            "key": "min",
+                            "value": 1
+                        }
+                    ],
+                    "type": "relation_many"
+                },
+                {
+                    "id": "a39369c0-9fed-496f-8f93-f2a5fe614672",
+                    "name": {
+                        "singular": "employee",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Employee",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "filter": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [],
+                    "type": "user_one"
+                },
+                {
+                    "id": "d1d77278-d686-4852-853d-1841a424e47d",
+                    "name": {
+                        "singular": "delivered",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Delivered",
+                        "plural": null
+                    },
+                    "properties": {
+                        "boolean_html_type": "switch",
+                        "list": "no",
+                        "filter": "no",
+                        "exportable": "no"
+                    },
+                    "relation": {},
+                    "validations": [],
+                    "type": "boolean"
+                },
+                {
+                    "id": "a77b7cf4-9e2c-4f10-84f6-2720a653b2db",
+                    "name": {
+                        "singular": "attachments",
+                        "plural": null
+                    },
+                    "label": {
+                        "singular": "Attachments",
+                        "plural": null
+                    },
+                    "properties": {
+                        "list": "yes",
+                        "exportable": "yes"
+                    },
+                    "relation": {},
+                    "validations": [
+                        {
+                            "id": "90cfcca7-422a-4f08-8e1f-f0c2761f8a34",
+                            "key": "size",
+                            "value": 1000000
+                        },
+                        {
+                            "id": "5058e471-81b5-487f-836b-355150d02729",
+                            "key": "formats",
+                            "value": "txt, pdf"
+                        },
+                        {
+                            "id": "a2b15e81-e605-430f-ad91-87cfae89047a",
+                            "key": "max",
+                            "value": 3
+                        }
+                    ],
+                    "type": "files"
+                }
+            ]
+        }
+    ],
+    "properties": {
+        "database": "mongodb",
+        "frontend": "react-tailwindcss",
+        "plans": "enabled",
+        "tenantMode": "multi",
+        "defaultLanguage": "en"
+    }
+}

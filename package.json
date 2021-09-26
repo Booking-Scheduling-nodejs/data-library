@@ -1,0 +1,24 @@
+{
+  "name": "data-library",
+  "version": "1.0.0",
+  "description": "A highlight of all the modules and libraries that were researched when building this package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Booking-Scheduling-nodejs/data-library.git"
+  },
+  "keywords": [],
+  "author": "mtrontz-the-dev <mtrontz@trontzenterprises.com> (https://mtrontz.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Booking-Scheduling-nodejs/data-library/issues"
+  },
+  "homepage": "https://github.com/Booking-Scheduling-nodejs/data-library#readme",
+  "dependencies": {
+    "livr": "^2.3.3",
+    "livr-extra-rules": "^1.2.1"
+  }
+}
