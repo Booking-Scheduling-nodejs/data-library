@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "set-template": "git config commit.template ./.gitmessage",
     "stage": "git add -A && npm run commit",
     "commit": "git commit -F message.txt && npm run git-push",
     "commit-all": "git commit -a && npm run git-push",
