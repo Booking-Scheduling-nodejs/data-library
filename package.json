@@ -4,7 +4,8 @@
   "description": "A highlight of all the modules and libraries that were researched when building this package.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git add . && git commit -m 'Automated Commit' && git push"
   },
   "repository": {
     "type": "git",

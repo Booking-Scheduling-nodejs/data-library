@@ -20,10 +20,11 @@ https://www.emailjs.com/pricing/
 https://www.emailjs.com/docs/
 https://www.emailjs.com/docs/examples/reactjs/
 
+https://www.smtpjs.com/
 
-
-
-
+https://stackoverflow.com/questions/271171/sending-emails-with-javascript
+https://stackoverflow.com/questions/7381150/how-to-send-an-email-from-javascript
+https://stackoverflow.com/questions/43918751/how-can-i-send-form-contact-to-email-using-javascript
 
 
 
