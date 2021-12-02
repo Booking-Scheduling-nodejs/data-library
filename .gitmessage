@@ -1,3 +1,4 @@
+###https://alex-wasik.medium.com/create-a-custom-git-commit-template-84468232a459###
 ########50 characters############################
 Subject
 ########72 characters##################################################
@@ -7,6 +8,12 @@ Solution
 # Solution or List of Changes
 Note
 # Special instructions, testing steps, rake, etc
+##On Windows GIT Bash##
+##Press i to enter inline insert mode## 
+##press esc to exit insert mode## 
+##then type :x! (now the cursor is at the bottom) and hit enter to save and exit.##
+## :wq also works! ##
+##If typing :q! instead, will exit the editor without saving (and commit will be aborted)##
 
 [commit]
   template = ./.gitmessage
